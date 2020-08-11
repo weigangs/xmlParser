@@ -1,0 +1,25 @@
+<department>
+
+              <month value="9">
+
+                             <employee name="xiao wang" type="salary" birthday="1990-10-11" /> 
+
+                             <employee name="xiao zhang" type="hour" workingHours="170.5" birthday="1990-11-11"/>            
+
+                             <employee name="xiao hong" type="sale" amount ="34100.8" birthday="1990-12-11"/>
+
+              </month>
+
+              <month value="10">
+
+                             <employee name="xiao wang" type="salary" birthday="1990-10-11" />
+
+                             <employee name="xiao zhang" type="hour" workingHours ="155.75" birthday="1990-11-11"/>
+
+                             <employee name="xiao hong" type="sale" amount ="23500.7" birthday="1990-12-11"/>
+
+<employee name="xiao liu" type=" hour " workingHours ="188.25" birthday="1989-10-11"/>
+
+              </month>
+
+</department>
