@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TX type="OBJ">
+	<TX_HEADER type="OBJ">
+        <SYS_HDR_LEN></SYS_HDR_LEN>
+        <SYS_PKG_VRSN>01</SYS_PKG_VRSN>
+        <SYS_TTL_LEN></SYS_TTL_LEN>
+        <SYS_REQ_SEC_ID>408001</SYS_REQ_SEC_ID>
+        <SYS_SND_SEC_ID>408001</SYS_SND_SEC_ID>
+        <SYS_TX_CODE>P5481P113</SYS_TX_CODE>
+        <SYS_TX_VRSN>01</SYS_TX_VRSN>
+        <SYS_TX_TYPE></SYS_TX_TYPE>
+        <SYS_RESERVED></SYS_RESERVED>
+        <SYS_EVT_TRACE_ID>${SYS_EVT_TRACE_ID}</SYS_EVT_TRACE_ID>
+        <SYS_SND_SERIAL_NO></SYS_SND_SERIAL_NO>
+        <SYS_PKG_TYPE>1</SYS_PKG_TYPE>
+        <SYS_MSG_LEN></SYS_MSG_LEN>
+        <SYS_IS_ENCRYPTED>0</SYS_IS_ENCRYPTED>
+        <SYS_ENCRYPT_TYPE>3</SYS_ENCRYPT_TYPE>
+        <SYS_COMPRESS_TYPE>0</SYS_COMPRESS_TYPE>
+        <SYS_EMB_MSG_LEN></SYS_EMB_MSG_LEN>
+        <SYS_REQ_TIME></SYS_REQ_TIME>
+        <SYS_TIME_LEFT></SYS_TIME_LEFT>
+        <SYS_PKG_STS_TYPE>00</SYS_PKG_STS_TYPE>
+    </TX_HEADER>
+    <TX_BODY type="OBJ">
+        <COMMON type="OBJ">
+            <COM1 type="OBJ">
+                <TXN_INSID></TXN_INSID>
+                <TXN_ITT_CHNL_ID></TXN_ITT_CHNL_ID>
+                <TXN_ITT_CHNL_CGY_CODE></TXN_ITT_CHNL_CGY_CODE>
+                <TXN_DT></TXN_DT>
+                <TXN_TM></TXN_TM>
+                <TXN_STFF_ID>yxwh</TXN_STFF_ID>
+                <MULTI_TENANCY_ID></MULTI_TENANCY_ID>
+                <LNG_ID></LNG_ID>
+            </COM1>
+            <COM4 type="OBJ">
+                <REC_IN_PAGE>10</REC_IN_PAGE>
+                <PAGE_JUMP>1</PAGE_JUMP>
+                <STS_TRACE_ID></STS_TRACE_ID>
+            </COM4>
+        </COMMON>
+        <ENTITY type="OBJ">
+            <GROUP type="OBJ">
+            <Trstr_InsID type="SPEL">${Trstr_InsID}</Trstr_InsID>
+            <Trstr_Nm type="SPEL">${Trstr_Nm}</Trstr_Nm>
+            <Crdt_TpCd type="SPEL">${Crdt_TpCd}</Crdt_TpCd>
+            <Crdt_No type="SPEL">${Crdt_No}</Crdt_No>
+            <Usr_Nm type="SPEL">${Usr_Nm}</Usr_Nm>
+            <Loan_AccNo type="SPEL">${Loan_AccNo}</Loan_AccNo>
+            <Txn_Chnl_ID type="SPEL">${txn_Chnl_ID}</Txn_Chnl_ID>
+            <Chnl_Nm type="SPEL">${Chnl_Nm}</Chnl_Nm>
+            <Last_Udt_Tms type="SPEL">${Last_Udt_Tms}</Last_Udt_Tms>
+            <Enqr_Dt_CtOf_Day type="SPEL">${Enqr_Dt_CtOf_Day}</Enqr_Dt_CtOf_Day>
+            <Repy_AccNo type="SPEL">${Repy_AccNo}</Repy_AccNo>
+            <FWZL type="SPEL">${FWZL}</FWZL>
+            </GROUP>
+        </ENTITY>
+    </TX_BODY>
+</TX>
